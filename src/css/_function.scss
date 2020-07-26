@@ -1,0 +1,13 @@
+// Function in Scss
+@mixin ClearAll {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@mixin HeaderStyle($displayTpye, $position, $direction) {
+    display: $displayTpye;
+    height: 100vh;
+    justify-content: $position;
+    align-items: $position;
+    flex-direction: $direction;
+}

@@ -1,0 +1,13 @@
+@import "./function"; //importing other scss file from same folder
+@import "./header";
+
+*{
+    // applying function in CSS
+    @include ClearAll();
+}
+.contact{
+    @extend header; // extending the header to made your contact page look same
+    background-color: red;
+}
+
+

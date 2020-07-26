@@ -1,0 +1,23 @@
+$lightColor : white; //creating variable in 
+
+header{
+    @include HeaderStyle(flex, center, column);
+    background-color: navy;
+    color: $lightColor;
+    .ipman-img{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    button{
+        padding: 5px 10px;
+        margin-left: 10px;
+        border: 2px solid red;
+        border-radius: 5px;
+        font-size: large;
+        font-weight: bold;
+        &:hover{
+            background-color: red;
+        }
+    }
+}
